@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sundowner Time coastal lifestyle apparel storefront with a dynamic sunset banner."
+    />
+    <title>Sundowner Time | Coastal Lifestyle Apparel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Sundowner Time home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 120 92" role="img">
+            <defs>
+              <linearGradient id="sunGradient" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#ffd56b" />
+                <stop offset="1" stop-color="#d37a39" />
+              </linearGradient>
+            </defs>
+            <circle cx="71" cy="38" r="32" fill="url(#sunGradient)" />
+            <path d="M71 6v64M43 22h55M38 39h67M45 56h52" stroke="#fff7ea" stroke-width="2" opacity=".55" />
+            <path d="M20 62c12-7 28-7 43 0 12 6 26 6 41 0" fill="none" stroke="#0b243a" stroke-width="4" stroke-linecap="round" />
+            <path d="M29 31c-9-4-17 1-21 11 8-4 15-4 21 1-11 3-16 11-16 22 8-8 17-12 27-8" fill="none" stroke="#0b243a" stroke-width="5" stroke-linecap="round" />
+            <path d="M37 68c4-18 7-32 8-48" stroke="#0b243a" stroke-width="5" stroke-linecap="round" />
+            <path d="M57 13v48l34-10L61 13zM57 18 39 61l18-4z" fill="#0b243a" />
+            <path d="M18 73c13 5 29 5 44 0 15-5 29-5 44 0M25 82c14 4 26 4 39 0 13-4 26-4 39 0" fill="none" stroke="#0b243a" stroke-width="4" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">Sundowner</span>
+          <span class="brand-time"><span></span>Time<span></span></span>
+          <span class="brand-tagline">Coastal Lifestyle Apparel</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#men">Men</a>
+        <a href="#women">Women</a>
+        <a href="#hats">Hats</a>
+        <a href="#performance">Performance</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#about">About Us</a>
+      </nav>
+
+      <div class="header-actions" aria-label="Shop actions">
+        <button type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" /></svg>
+        </button>
+        <button type="button" aria-label="Account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21a8 8 0 1 0-16 0M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" /></svg>
+        </button>
+        <button type="button" aria-label="Shopping bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l1 13H5L6 8Zm3 0V6a3 3 0 0 1 6 0v2" /></svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Featured coastal lifestyle collection">
+        <div class="hero-slider" aria-live="polite">
+          <article class="slide active" data-slide="0" aria-hidden="false">
+            <div class="slide-art sunset-sail" role="img" aria-label="Two cruisers wearing coastal apparel on a sailboat at sunset"></div>
+          </article>
+          <article class="slide" data-slide="1" aria-hidden="true">
+            <div class="slide-art beach-camp" role="img" aria-label="Friends wearing coastal apparel beside a beach fire at golden hour"></div>
+          </article>
+          <article class="slide" data-slide="2" aria-hidden="true">
+            <div class="slide-art marina-walk" role="img" aria-label="Cruisers walking through a marina wearing hats and performance shirts"></div>
+          </article>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Live for the</p>
+          <h1>Sundowner</h1>
+          <p class="script">Wear the Lifestyle</p>
+          <div class="anchor-rule" aria-hidden="true"><span></span>⚓<span></span></div>
+          <p class="hero-subtitle">Inspired by sunsets. Made for cruisers.</p>
+          <a class="cta" href="#collection">Shop the Collection</a>
+        </div>
+
+        <div class="slider-controls" aria-label="Banner controls">
+          <button class="slider-btn previous" type="button" aria-label="Previous banner">‹</button>
+          <div class="slider-dots" role="tablist" aria-label="Choose banner slide">
+            <button class="dot active" type="button" role="tab" aria-selected="true" aria-label="Show slide 1"></button>
+            <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Show slide 2"></button>
+            <button class="dot" type="button" role="tab" aria-selected="false" aria-label="Show slide 3"></button>
+          </div>
+          <button class="slider-btn next" type="button" aria-label="Next banner">›</button>
+        </div>
+      </section>
+
+      <section class="benefits" aria-label="Sundowner Time promises">
+        <article>
+          <span class="icon sun" aria-hidden="true">☀</span>
+          <div>
+            <h2>Inspired by Sunsets</h2>
+            <p>Life is better at the end of the day.</p>
+          </div>
+        </article>
+        <article>
+          <span class="icon wave" aria-hidden="true">≋</span>
+          <div>
+            <h2>Made for the Coast</h2>
+            <p>Comfortable. Durable. Timeless.</p>
+          </div>
+        </article>
+        <article>
+          <span class="icon sail" aria-hidden="true">⛵</span>
+          <div>
+            <h2>Cruiser Approved</h2>
+            <p>Designed by cruisers, for cruisers.</p>
+          </div>
+        </article>
+        <article>
+          <span class="icon palm" aria-hidden="true">🌴</span>
+          <div>
+            <h2>Live the Lifestyle</h2>
+            <p>Wherever your anchor drops.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="collection" id="collection" aria-labelledby="collection-title">
+        <p class="section-kicker">Fresh off the dock</p>
+        <h2 id="collection-title">Coastal essentials for every golden hour</h2>
+        <div class="product-grid">
+          <article class="product-card" id="men">
+            <div class="product-visual tee"></div>
+            <h3>Sundowner Long Sleeve</h3>
+            <p>Soft sun-washed cotton with a bold back print.</p>
+            <a href="#">Shop Men</a>
+          </article>
+          <article class="product-card" id="women">
+            <div class="product-visual crew"></div>
+            <h3>Harbor Breeze Crew</h3>
+            <p>Layer-ready comfort for cool cockpit evenings.</p>
+            <a href="#">Shop Women</a>
+          </article>
+          <article class="product-card" id="hats">
+            <div class="product-visual cap"></div>
+            <h3>Sunset Patch Hat</h3>
+            <p>Unstructured fit with a coastal woven badge.</p>
+            <a href="#">Shop Hats</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="about">
+      <p><strong>Sundowner Time</strong> celebrates sunset-chasing, salt-air living, and cruiser-ready apparel.</p>
+      <a href="mailto:hello@sundownertime.example">hello@sundownertime.example</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
