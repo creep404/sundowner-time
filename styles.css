@@ -242,7 +242,14 @@ button {
 
 .marina-walk {
   background-image: url("assets/images/woman.png");
+  }
+
+  
+}.fashionkids {
+  background-image: url("assets/images/fashion.png");
 }
+
+
 
 .hero-content {
   position: relative;
