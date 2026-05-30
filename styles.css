@@ -93,7 +93,7 @@ button {
 .brand-name {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.1rem, 4vw, 4.25rem);
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.04em;
 }
 
@@ -104,7 +104,7 @@ button {
   color: #b66b32;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.2rem, 2.6vw, 2.25rem);
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.45em;
 }
 
@@ -118,7 +118,7 @@ button {
 .brand-tagline {
   margin-top: 0.5rem;
   font-size: clamp(0.72rem, 1.3vw, 1.1rem);
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.34em;
 }
 
@@ -128,7 +128,7 @@ button {
   gap: clamp(1rem, 2.6vw, 3.2rem);
   font-family: "Barlow Condensed", sans-serif;
   font-size: clamp(1.05rem, 1.5vw, 1.35rem);
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -232,24 +232,103 @@ button {
 }
 
 .sunset-sail {
-  background-image: url("assets/images/banner.png");
+  background-image:
+    radial-gradient(circle at 47% 71%, #ffd56b 0 2.3%, transparent 2.5%),
+    radial-gradient(circle at 69% 36%, rgba(11, 36, 58, 0.95) 0 5%, transparent 5.2%),
+    radial-gradient(circle at 82% 33%, rgba(11, 36, 58, 0.95) 0 5%, transparent 5.2%),
+    linear-gradient(82deg, transparent 0 60%, rgba(218, 235, 229, 0.96) 60.2% 72%, transparent 72.2%),
+    linear-gradient(78deg, transparent 0 76%, rgba(248, 239, 222, 0.98) 76.2% 88%, transparent 88.2%),
+    linear-gradient(135deg, transparent 0 55%, rgba(11, 36, 58, 0.86) 55.2% 56%, transparent 56.3%),
+    linear-gradient(90deg, #ffc36c 0%, #f7d9a6 34%, #8fc9d1 100%);
 }
 
+.sunset-sail::after {
+  right: 0;
+  bottom: 0;
+  width: 63%;
+  height: 76%;
+  background:
+    linear-gradient(170deg, transparent 0 49%, rgba(11, 36, 58, 0.92) 49.2% 50%, transparent 50.2%),
+    radial-gradient(ellipse at 61% 61%, rgba(11, 36, 58, 0.88) 0 11%, transparent 11.2%),
+    radial-gradient(ellipse at 82% 65%, rgba(11, 36, 58, 0.9) 0 15%, transparent 15.2%),
+    linear-gradient(22deg, transparent 0 36%, rgba(183, 214, 205, 0.94) 36.2% 57%, transparent 57.2%),
+    linear-gradient(20deg, transparent 0 57%, rgba(246, 235, 214, 0.96) 57.2% 78%, transparent 78.2%),
+    linear-gradient(0deg, rgba(7, 23, 39, 0.55) 0 22%, transparent 22.4%),
+    linear-gradient(90deg, transparent 0 36%, rgba(11, 36, 58, 0.35) 36.2% 38%, transparent 38.2%);
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+}
 
 .beach-camp {
-  background-image: url("assets/images/manhat.png");
+  background-image:
+    radial-gradient(circle at 30% 61%, #ffca63 0 3%, transparent 3.3%),
+    radial-gradient(ellipse at 76% 62%, rgba(11, 36, 58, 0.8) 0 9%, transparent 9.2%),
+    radial-gradient(ellipse at 85% 64%, rgba(11, 36, 58, 0.82) 0 10%, transparent 10.2%),
+    linear-gradient(0deg, rgba(11, 36, 58, 0.62) 0 17%, transparent 17.3%),
+    linear-gradient(12deg, transparent 0 68%, rgba(255, 247, 234, 0.65) 68.2% 75%, transparent 75.2%),
+    linear-gradient(110deg, #f7a85f, #f6d19d 42%, #77bfc3 100%);
 }
 
 .marina-walk {
-  background-image: url("assets/images/woman.png");
-  }
-
-  
-}.fashionkids {
-  background-image: url("assets/images/fashion.png");
+  background-image:
+    radial-gradient(circle at 58% 37%, rgba(11, 36, 58, 0.94) 0 4.5%, transparent 4.8%),
+    radial-gradient(circle at 74% 36%, rgba(11, 36, 58, 0.94) 0 4.5%, transparent 4.8%),
+    linear-gradient(90deg, transparent 0 54%, rgba(104, 195, 186, 0.92) 54.2% 64%, transparent 64.2%),
+    linear-gradient(90deg, transparent 0 69%, rgba(244, 231, 210, 0.96) 69.2% 80%, transparent 80.2%),
+    repeating-linear-gradient(100deg, transparent 0 9%, rgba(11, 36, 58, 0.22) 9.2% 9.7%, transparent 10% 17%),
+    linear-gradient(0deg, rgba(11, 36, 58, 0.54) 0 24%, transparent 24.3%),
+    linear-gradient(105deg, #ffd482, #f2b171 44%, #88cdd0);
 }
 
+.island-anchorage {
+  background-image:
+    radial-gradient(circle at 24% 57%, #ffcf67 0 3.2%, transparent 3.4%),
+    radial-gradient(ellipse at 69% 60%, rgba(11, 36, 58, 0.86) 0 9%, transparent 9.2%),
+    radial-gradient(ellipse at 78% 58%, rgba(11, 36, 58, 0.82) 0 7%, transparent 7.2%),
+    linear-gradient(118deg, transparent 0 61%, rgba(255, 247, 234, 0.78) 61.2% 69%, transparent 69.2%),
+    linear-gradient(64deg, transparent 0 68%, rgba(104, 195, 186, 0.86) 68.2% 77%, transparent 77.2%),
+    linear-gradient(0deg, rgba(11, 36, 58, 0.72) 0 20%, transparent 20.3%),
+    radial-gradient(ellipse at 50% 83%, rgba(11, 36, 58, 0.42) 0 22%, transparent 22.4%),
+    linear-gradient(105deg, #ffa85d 0%, #f9d9a7 42%, #77c8cc 100%);
+}
 
+.island-anchorage::after {
+  right: 7%;
+  bottom: 5%;
+  width: 42%;
+  height: 34%;
+  background:
+    radial-gradient(ellipse at 38% 46%, rgba(11, 36, 58, 0.95) 0 17%, transparent 17.5%),
+    radial-gradient(ellipse at 62% 46%, rgba(11, 36, 58, 0.95) 0 17%, transparent 17.5%),
+    linear-gradient(90deg, transparent 0 31%, rgba(255, 247, 234, 0.95) 31.3% 69%, transparent 69.3%),
+    linear-gradient(0deg, rgba(11, 36, 58, 0.72) 0 26%, transparent 26.4%);
+  border-radius: 38% 42% 12% 12%;
+}
+
+.dockside-golden-hour {
+  background-image:
+    radial-gradient(circle at 39% 52%, #ffd56b 0 2.8%, transparent 3%),
+    radial-gradient(circle at 64% 34%, rgba(11, 36, 58, 0.92) 0 4.8%, transparent 5%),
+    radial-gradient(circle at 77% 36%, rgba(11, 36, 58, 0.92) 0 4.8%, transparent 5%),
+    linear-gradient(90deg, transparent 0 59%, rgba(244, 231, 210, 0.94) 59.2% 69%, transparent 69.2%),
+    linear-gradient(90deg, transparent 0 72%, rgba(183, 214, 205, 0.94) 72.2% 82%, transparent 82.2%),
+    repeating-linear-gradient(0deg, transparent 0 14%, rgba(11, 36, 58, 0.25) 14.2% 15%, transparent 15.2% 22%),
+    linear-gradient(0deg, rgba(7, 23, 39, 0.82) 0 18%, transparent 18.3%),
+    linear-gradient(110deg, #ffb05d 0%, #f5cca0 39%, #7ac8c5 100%);
+}
+
+.dockside-golden-hour::after {
+  right: 0;
+  bottom: 0;
+  width: 62%;
+  height: 58%;
+  background:
+    linear-gradient(0deg, rgba(7, 23, 39, 0.82) 0 16%, transparent 16.3%),
+    radial-gradient(ellipse at 51% 41%, rgba(11, 36, 58, 0.84) 0 10%, transparent 10.3%),
+    radial-gradient(ellipse at 74% 44%, rgba(11, 36, 58, 0.84) 0 11%, transparent 11.3%),
+    linear-gradient(20deg, transparent 0 38%, rgba(255, 247, 234, 0.86) 38.3% 55%, transparent 55.2%),
+    linear-gradient(18deg, transparent 0 59%, rgba(104, 195, 186, 0.88) 59.2% 76%, transparent 76.2%);
+  clip-path: polygon(9% 8%, 100% 0, 100% 100%, 0 100%, 7% 48%);
+}
 
 .hero-content {
   position: relative;
@@ -267,7 +346,7 @@ button {
 .hero-subtitle,
 .cta {
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: 0.09em;
 }
 
@@ -630,7 +709,9 @@ button {
 
   .sunset-sail::after,
   .beach-camp::after,
-  .marina-walk::after {
+  .marina-walk::after,
+  .island-anchorage::after,
+  .dockside-golden-hour::after {
     opacity: 0.75;
   }
 
