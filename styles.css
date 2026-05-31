@@ -232,14 +232,15 @@ button {
 }
 
 .sunset-sail {
-  background-image:
-    radial-gradient(circle at 47% 71%, #ffd56b 0 2.3%, transparent 2.5%),
-    radial-gradient(circle at 69% 36%, rgba(11, 36, 58, 0.95) 0 5%, transparent 5.2%),
-    radial-gradient(circle at 82% 33%, rgba(11, 36, 58, 0.95) 0 5%, transparent 5.2%),
-    linear-gradient(82deg, transparent 0 60%, rgba(218, 235, 229, 0.96) 60.2% 72%, transparent 72.2%),
-    linear-gradient(78deg, transparent 0 76%, rgba(248, 239, 222, 0.98) 76.2% 88%, transparent 88.2%),
-    linear-gradient(135deg, transparent 0 55%, rgba(11, 36, 58, 0.86) 55.2% 56%, transparent 56.3%),
-    linear-gradient(90deg, #ffc36c 0%, #f7d9a6 34%, #8fc9d1 100%);
+  background-image: url("assets/images/manhat.png");
+}
+
+.beach-camp {
+  background-image: url("assets/images/woman.png");
+}
+
+.marina-walk {
+  background-image: url("fashion.png");
 }
 
 .sunset-sail::after {
@@ -258,26 +259,6 @@ button {
   clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
 }
 
-.beach-camp {
-  background-image:
-    radial-gradient(circle at 30% 61%, #ffca63 0 3%, transparent 3.3%),
-    radial-gradient(ellipse at 76% 62%, rgba(11, 36, 58, 0.8) 0 9%, transparent 9.2%),
-    radial-gradient(ellipse at 85% 64%, rgba(11, 36, 58, 0.82) 0 10%, transparent 10.2%),
-    linear-gradient(0deg, rgba(11, 36, 58, 0.62) 0 17%, transparent 17.3%),
-    linear-gradient(12deg, transparent 0 68%, rgba(255, 247, 234, 0.65) 68.2% 75%, transparent 75.2%),
-    linear-gradient(110deg, #f7a85f, #f6d19d 42%, #77bfc3 100%);
-}
-
-.marina-walk {
-  background-image:
-    radial-gradient(circle at 58% 37%, rgba(11, 36, 58, 0.94) 0 4.5%, transparent 4.8%),
-    radial-gradient(circle at 74% 36%, rgba(11, 36, 58, 0.94) 0 4.5%, transparent 4.8%),
-    linear-gradient(90deg, transparent 0 54%, rgba(104, 195, 186, 0.92) 54.2% 64%, transparent 64.2%),
-    linear-gradient(90deg, transparent 0 69%, rgba(244, 231, 210, 0.96) 69.2% 80%, transparent 80.2%),
-    repeating-linear-gradient(100deg, transparent 0 9%, rgba(11, 36, 58, 0.22) 9.2% 9.7%, transparent 10% 17%),
-    linear-gradient(0deg, rgba(11, 36, 58, 0.54) 0 24%, transparent 24.3%),
-    linear-gradient(105deg, #ffd482, #f2b171 44%, #88cdd0);
-}
 
 .island-anchorage {
   background-image:
