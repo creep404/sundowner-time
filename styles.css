@@ -93,7 +93,7 @@ button {
 .brand-name {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.1rem, 4vw, 4.25rem);
-  font-weight: 500;
+  font-weight: 200;
   letter-spacing: 0.04em;
 }
 
