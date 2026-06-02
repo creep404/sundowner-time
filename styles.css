@@ -189,7 +189,7 @@ button {
 
 .hero {
   position: relative;
-  min-height: clamp(560px, 72vw, 820px);
+  min-height: clamp(300px, 72vw, 300px);
   overflow: hidden;
   isolation: isolate;
   background: var(--navy);
